@@ -14,6 +14,21 @@ app.get("/", (req, res) => {
       createdAt: new Date(),
       discription: "test discription",
     },
+    {
+      title: "Articles title",
+      createdAt: new Date(),
+      discription: "test discription",
+    },
+    {
+      title: "Articles title",
+      createdAt: new Date(),
+      discription: "test discription",
+    },
+    {
+      title: "Articles title",
+      createdAt: new Date(),
+      discription: "test discription",
+    },
   ];
   res.render("index", { articles: articles });
 });
