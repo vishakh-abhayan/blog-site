@@ -12,25 +12,25 @@ app.get("/", (req, res) => {
     {
       title: "Articles title",
       createdAt: new Date(),
-      discription: "test discription",
+      description: "test description",
     },
     {
       title: "Articles title",
       createdAt: new Date(),
-      discription: "test discription",
+      description: "test description",
     },
     {
       title: "Articles title",
       createdAt: new Date(),
-      discription: "test discription",
+      description: "test description",
     },
     {
       title: "Articles title",
       createdAt: new Date(),
-      discription: "test discription",
+      description: "test description",
     },
   ];
-  res.render("index", { articles: articles });
+  res.render("articles/index", { articles: articles });
 });
 
 app.listen(port, () => {
